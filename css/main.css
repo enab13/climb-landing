@@ -71,10 +71,15 @@ h1, h2 {
     line-height: 1.2em;
 }
 
-
 .section-link {
     font-size: 15px;
     line-height: 1.4em;
+    transition: all 0.7s ease;
+}
+
+.section-link:hover{
+    transform: scale(1.1);
+    transition: all 0.7s ease;
 }
 
 .section-link:after {
