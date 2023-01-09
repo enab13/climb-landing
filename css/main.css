@@ -192,6 +192,7 @@ h1, h2, h4 {
 .products__items {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .products__item {
@@ -203,7 +204,7 @@ h1, h2, h4 {
 
 .products__item-icon {
     height: 64px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .products__item-title {
