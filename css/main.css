@@ -217,3 +217,61 @@ h1, h2, h4 {
     font-size: 14px;
     line-height: 1.4em;
 }
+
+.categories {
+    background: #FFFFFF;
+    padding: 100px 0;
+}
+
+.categories__title {
+    margin-top: 19px;
+}
+
+.categories__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 21px 0 5px 0;
+}
+
+.categories__item {
+    position: relative;
+    height: 473px;
+    width: 379px;
+    margin-bottom: 16px;
+}
+
+.categories__item:hover {
+    outline: solid #575445 3px;
+    border-radius: 10px
+}
+
+.categories__item-img {
+    border-radius: 10px;
+}
+
+.categories__content {
+    position: absolute;
+    top: 39px;
+    text-align: center;
+    width: 100%;
+}
+
+.categories__item-title {
+    font-size: 28px;
+    line-height: 1.2em;
+    padding-bottom: 9px;
+}
+
+.categories__item-description {
+    width: 252px;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.categories__link {
+    width: 100%;
+    text-align: center;
+}
