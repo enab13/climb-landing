@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h4 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -60,13 +60,17 @@ h1, h2 {
 }
 
 .section-title {
-    width: 538px;
+    margin: auto;
+    text-align: center;
     font-size: 36px;
     line-height: 1.2em;
     padding-bottom: 7px;
 }
 
 .section-description {
+    margin: auto;
+    text-align: center;
+    width: 538px;
     font-size: 16px;
     line-height: 1.2em;
 }
@@ -165,7 +169,50 @@ h1, h2 {
     padding-left: 43px  ;
 }
 
+.about__title {
+    text-align: left;
+}
+
 .about__description {
+    text-align: left;
+    margin-left: 0;
     width: 395px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+}
+
+.products {
+    background: #FAFAFC;
+    padding: 119px 0 100px 0;
+}
+
+.products__description {
+    padding-bottom: 21px;
+}
+
+.products__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    text-align: center;
+    height: 275px;
+    width: 389px;
+    padding: 50px 51px 59px 51px;
+}
+
+.products__item-icon {
+    height: 64px;
+    padding-bottom: 10px;
+}
+
+.products__item-title {
+    font-size: 20px;
+    line-height: 1.2em;
+    padding-bottom: 9px;
+}
+
+.products__item-description {
+    font-size: 14px;
+    line-height: 1.4em;
 }
