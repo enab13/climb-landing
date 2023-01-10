@@ -275,3 +275,35 @@ h1, h2, h4 {
     width: 100%;
     text-align: center;
 }
+
+.photo-banner {
+    padding: 512px 40px 40px 40px;
+    background: url(../img/serfing.png) center / cover;
+}
+
+.photo-banner__navigation {
+    margin-left: auto;
+    width: 615px;
+    height: 48px;
+    border-radius: 16px;
+    background: #292C32;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.photo-banner__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 22px;
+}
+
+.photo-banner__item {
+    display: flex;
+    align-items: center;
+}
+
+.photo-banner__item-icon {
+    height: 16px;
+    padding-right: 8px;
+}
