@@ -307,3 +307,43 @@ h1, h2, h4 {
     height: 16px;
     padding-right: 8px;
 }
+
+.shop {
+    background: #375C58;
+    padding: 100px 0;
+}
+
+.shop__content {
+    text-align: center;
+}
+
+.shop__additional-title {
+    font-size: 14px;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+
+.shop__title {
+    color: #E6B939;
+}
+
+.shop__description {
+    color: #FAFAFC;
+    padding-bottom: 21px    ;
+}
+
+.shop__btn {
+    font-size: 15px;
+    line-height: 1.49em;
+    color: #575445;
+    background: #FFFFFF;
+    padding: 10px 18px;
+}
+
+.shop__btn:hover {
+    border: solid #FFFFFF 1px;
+    background: #375C58;
+    color: #FFFFFF;
+}
