@@ -56,7 +56,7 @@ h1, h2, h4 {
     font-size: 16px;
     line-height: 1.4em;
     color: #FFFFFF;
-    /* padding: 10px 18px; */
+    padding: 10px 18px;
 }
 
 .section-title {
@@ -110,20 +110,13 @@ h1, h2, h4 {
 }
 
 .header__btn-buy {
-    width: 143px;
-    height: 44px;
     margin-right: 20px;
-}
-
-.header__btn-cart {
-    width: 125px;
-    height: 44px;
 }
 
 .header__btn:hover {
     background: #FFFFFF;
     color: #575445;
-    border: solid 1.5px #575445;
+    outline: solid 1.5px #575445;
 }
 
 .banner {
@@ -339,11 +332,113 @@ h1, h2, h4 {
     line-height: 1.49em;
     color: #575445;
     background: #FFFFFF;
-    padding: 10px 18px;
 }
 
 .shop__btn:hover {
-    border: solid #FFFFFF 1px;
+    outline: solid #FFFFFF 1px;
     background: #375C58;
     color: #FFFFFF;
+}
+
+.buyers-guides {
+    padding: 119px 0;
+}
+
+.buyers-guides__content {
+    padding: 0 16px;
+}
+
+.buyers-guides__title {
+    text-align: left;
+}
+
+.buyers-guides__description {
+    margin: 0;
+    text-align: left;
+}
+
+.buyers-guides__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.buyers-guides__item {
+    width: 568px;
+}
+
+.buyers-guides__item-img {
+    width: 568px;
+    border-radius: 20px;
+    padding-bottom: 18px;
+}
+
+.buyers-guides__item-title {
+    font-size: 20px;
+    line-height: 1.2em;
+    padding-bottom: 12px;
+}
+
+.buyers-guides__autor {
+    display: flex;
+    align-items: center;
+}
+
+.buyers-guides__autor-img {
+    width: 50px;
+    margin-right: 12px;
+}
+
+.buyers-guides__autor-name {
+    font-size: 13px;
+    line-height: 1.4em;
+}
+
+.buyers-guides__autor-position{
+    font-size: 11px;
+    line-height: 1.4em;
+    color: #E6B939;
+}
+
+.buyers-guides__post-date {
+    margin-left: auto;
+    font-size: 13px;
+    line-height: 1.4em;
+    color: #6F7278;
+}
+
+.buyers-guides__link {
+    width: 100%;
+    text-align: center;
+}
+
+.magazine {
+    background: #FFFFFF;
+    padding: 81px 0 100px;
+}
+
+.magazine__content {
+    display: flex;
+    padding: 0 16px;
+}
+
+.magazine__img {
+    width: 576px;
+    margin-right: 104px;
+}
+
+.magazine__info {
+    padding-top: 172px;
+}
+
+.magazine__title {
+    text-align: left;
+    width: 384px;
+}
+
+.magazine__description {
+    text-align: left;
+    width: 384px;
+    padding-bottom: 20px;
 }
