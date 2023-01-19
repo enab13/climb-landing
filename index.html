@@ -273,7 +273,7 @@
     <section class="magazine">
         <div class="container">
             <div class="magazine__content">
-                <img src="./img/magazine.png" alt="Magazine" class="magazine__img">
+                <img class="magazine__img" src="./img/magazine.png" alt="About">
                 <div class="magazine__info">
                     <h2 class="section-title magazine__title">
                         Subscribe to our magazine today.
@@ -332,10 +332,11 @@
                         <div class="footer__menu-column">
                             <h3 class="footer__menu-column-title">Newsletter</h3>
                             <p class="footer__menu-column-description">Subscribe to our (infrequent) newsletter where we share news about upcoming listings and projects.</p>
-                            <div class="footer__menu-subscribe">
-                                <input class="footer__menu-subscribe-email" type="email" placeholder="Email">
-                                <button class="footer__menu-subscribe-submit" type="submit">Submit</button>
-                            </div>
+
+                            <form class="footer__subscription-form" action="" method="" id="" novalidate>
+                                    <input class="footer__subscription-form-email" type="email" id=""  name="email" placeholder="Email" required>
+                                    <button class="footer__subscription-form-submit" type="submit">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
