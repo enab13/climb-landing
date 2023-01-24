@@ -818,8 +818,7 @@ h1, h2, h4 {
     }
 
     .banner {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 75px 0;
     }
 
     .banner__title {
@@ -851,7 +850,7 @@ h1, h2, h4 {
     .footer__menu-column {
         margin-top: 25px;
     }
-    
+
     .footer__menu-column:first-of-type {
         margin-top: 0px;
     }
